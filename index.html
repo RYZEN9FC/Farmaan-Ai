@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farmaan — Your Legal Assistant</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a class="nav__logo" href="#top" aria-label="Farmaan home">
+      <span class="nav__emblem" id="navlogo3d"><img src="images/logo.png" alt=""></span>
+      <span class="nav__word">Farmaan</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#about">About Product <svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></li>
+      <li><a href="#platform">Features <svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></li>
+      <li><a href="#security">Security <svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></li>
+      <li><a href="#pricing">Pricing <svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    </ul>
+    <a class="nav__cta" href="dashboard.html">Sign in</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <canvas class="hero__dust" id="dust" aria-hidden="true"></canvas>
+    <div class="hero__content">
+      <div class="hero__logo" id="logo3d" role="img" aria-label="Farmaan emblem">
+        <img src="images/logo.png" alt="">
+      </div>
+      <h1 class="hero__title">Farmaan</h1>
+      <p class="hero__tag">Your Legal Assistant</p>
+      <div class="hero__actions">
+        <a class="btn btn--solid" href="dashboard.html">Sign in
+          <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#">
+          <svg class="play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8.5v7l5.5-3.5z"/></svg>
+          Watch demo
+        </a>
+      </div>
+    </div>
+    <a class="hero__scroll" href="#about" aria-label="Scroll down">
+      <span>Scroll</span><i></i>
+    </a>
+  </header>
+
+  <main>
+    <section class="platform" id="platform">
+      <h2 class="platform__title">Built for every legal team</h2>
+      <p class="platform__sub">Placeholder copy for testing. Hover either card to see it grow and slide over the other.</p>
+
+      <div class="split">
+        <article class="split__card split__card--a">
+          <div class="split__media"></div>
+          <div class="split__text">
+            <div class="split__head">
+              <h3>For Law Firms</h3>
+              <a class="split__btn" href="#">Explore for Law Firms</a>
+            </div>
+            <p>Run every matter in one secure workspace, with your lawyers and agents on the same context.</p>
+          </div>
+        </article>
+        <article class="split__card split__card--b">
+          <div class="split__media"></div>
+          <div class="split__text">
+            <div class="split__head">
+              <h3 aria-label="For In-House">For In<span class="hy" aria-hidden="true"></span>House</h3>
+              <a class="split__btn" href="#">Explore for In-House Teams</a>
+            </div>
+            <p>Manage contracts and outside counsel in one place, and hand the repetitive work to agents.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="about">
+      <p class="eyebrow">About Product</p>
+      <h2>Placeholder section for scroll testing</h2>
+      <p class="lead">Scroll back up past the hero and the top-left sidebar returns; scroll down and it collapses into a horizontal bar.</p>
+      <div class="cards">
+        <article><h3>Research</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p></article>
+        <article><h3>Drafting</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p></article>
+        <article><h3>Review</h3><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p></article>
+      </div>
+    </section>
+
+    <section class="panel panel--dark" id="security">
+      <p class="eyebrow">Security</p>
+      <h2>Another block, more scroll room</h2>
+      <p class="lead">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section class="panel" id="pricing">
+      <p class="eyebrow">Pricing</p>
+      <h2>Last placeholder</h2>
+      <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+    </section>
+  </main>
+
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    } }
+  </script>
+  <script type="module" src="logo3d.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="dust.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

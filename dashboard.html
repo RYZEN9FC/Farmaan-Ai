@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farmaan — Home</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="side">
+    <div class="side__brand">
+      <a href="index.html" title="Back to farmaan.com"><b>Farmaan</b></a>
+      <button class="icon-btn has-dot" aria-label="Notifications"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15zM10 20a2 2 0 0 0 4 0"/></svg></button>
+      <button class="icon-btn" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.3-4.3"/></svg></button>
+    </div>
+
+    <nav class="side__nav">
+      <a class="is-active" href="dashboard.html"><svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>My Matters</a>
+      <a href="#"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-4-6"/></svg>Shared with me</a>
+      <a href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Recent</a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Starred</a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>Trash</a>
+      <hr>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-1.5-8 0v13c3-1.5 6-1.5 8 0 2-1.5 5-1.5 8 0V6c-3-1.5-6-1.5-8 0zM12 6v13"/></svg>Legal Research</a>
+      <a href="#"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Legal News</a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-5A8 8 0 1 1 21 12z"/></svg>Ask Farmaan</a>
+    </nav>
+
+    <a class="side__user" href="#">
+      <i>A</i>
+      <span>Allen Chris</span>
+    </a>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <h1>Good afternoon, Allen.</h1>
+      <div class="top__right">
+        <span class="top__date">Wednesday, 1 October 2025</span>
+        <a class="btn btn--ghost" href="#">View calendar</a>
+        <a class="btn btn--dark" href="#"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>New matter</a>
+      </div>
+    </header>
+
+    <section class="grid-2">
+      <article class="card">
+        <header class="card__head">
+          <h2>Upcoming pendencies</h2>
+          <a class="link" href="#">View all <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+        </header>
+        <ul class="pend">
+          <li><time><b>14</b><small>Nov</small></time><i class="dot dot--red"></i><div><p>Next hearing &mdash; Whitford Lane vs. Union of India</p><small>Supreme Court &middot; Civil</small></div><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></li>
+          <li><time><b>28</b><small>Oct</small></time><i class="dot dot--amber"></i><div><p>Respondent&rsquo;s reply due</p><small>Sharma vs. State of Maharashtra &middot; Bombay High Court</small></div><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></li>
+          <li><time><b>10</b><small>Oct</small></time><i class="dot dot--amber"></i><div><p>File rejoinder (internal)</p><small>R.K. Industries vs. ACME Corp &middot; Arbitration</small></div><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></li>
+          <li><time><b>5</b><small>Oct</small></time><i class="dot dot--blue"></i><div><p>Client meeting</p><small>Mehta Family Settlement</small></div><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></li>
+          <li><time><b>2</b><small>Oct</small></time><i class="dot dot--blue"></i><div><p>Research note due</p><small>Jain vs. BMC &middot; Writ Petition</small></div><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header class="card__head">
+          <h2>Legal news</h2>
+          <a class="link" href="#">View all <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+        </header>
+        <figure class="news">
+          <span class="news__count">1 / 4</span>
+          <div class="news__arrows">
+            <button aria-label="Previous"><svg viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></button>
+            <button aria-label="Next"><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></button>
+          </div>
+          <figcaption>
+            <span class="tag">Supreme Court</span>
+            <h3>Supreme Court issues landmark ruling on arbitration clause enforceability</h3>
+            <p>The Supreme Court has clarified the scope of judicial intervention in arbitral matters, strengthening the principle of minimal interference.</p>
+          </figcaption>
+        </figure>
+        <div class="news__dots"><i class="is-on"></i><i></i><i></i><i></i></div>
+      </article>
+    </section>
+
+    <section class="actions">
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M12 16V5M7 10l5-5 5 5M4 19h16"/></svg><span><b>Upload files</b></span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span><b>Create new matter</b></span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M4 20h4l10-10-4-4L4 16zM13 7l4 4"/></svg><span><b>Draft a document</b></span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M4 7l8-2 8 2M4 7l-2 6a3 3 0 0 0 6 0L6 7M20 7l-2 6a3 3 0 0 0 6 0l-2-6"/></svg><span><b>Find precedents</b></span></a>
+    </section>
+
+    <section class="card card--table">
+      <header class="card__head">
+        <h2>Recent matters</h2>
+        <a class="link" href="#">View all <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+      </header>
+      <table>
+        <thead><tr><th>Name</th><th>Last modified</th><th>Files</th><th>Key date</th><th>Status</th><th></th></tr></thead>
+        <tbody>
+          <tr><td><p>Whitford Lane vs. Union of India</p><small>Civil &middot; Supreme Court</small></td><td>Today, 4:32 PM</td><td>24</td><td><i class="dot dot--red"></i>14 Nov 2025 <span>&middot; Next hearing</span></td><td><span class="pill pill--active">Active</span></td><td><button class="more" aria-label="More">&middot;&middot;&middot;</button></td></tr>
+          <tr><td><p>Sharma vs. State of Maharashtra</p><small>Criminal &middot; Bombay High Court</small></td><td>30 Sept 2025</td><td>18</td><td><i class="dot dot--amber"></i>28 Oct 2025 <span>&middot; Reply due</span></td><td><span class="pill pill--active">Active</span></td><td><button class="more" aria-label="More">&middot;&middot;&middot;</button></td></tr>
+          <tr><td><p>R.K. Industries vs. ACME Corp</p><small>Commercial &middot; Arbitration</small></td><td>28 Sept 2025</td><td>41</td><td><i class="dot dot--amber"></i>10 Oct 2025 <span>&middot; Rejoinder</span></td><td><span class="pill pill--active">Active</span></td><td><button class="more" aria-label="More">&middot;&middot;&middot;</button></td></tr>
+          <tr><td><p>Mehta Family Settlement</p><small>Civil &middot; Delhi High Court</small></td><td>25 Sept 2025</td><td>12</td><td><i class="dot dot--blue"></i>5 Oct 2025 <span>&middot; Client meeting</span></td><td><span class="pill pill--hold">On hold</span></td><td><button class="more" aria-label="More">&middot;&middot;&middot;</button></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <form class="ask" onsubmit="return false">
+      <button type="button" class="icon-btn" aria-label="Attach"><svg viewBox="0 0 24 24"><path d="m20 11-8.5 8.5a5 5 0 0 1-7-7L13 4a3.3 3.3 0 0 1 4.7 4.7L9.5 17a1.7 1.7 0 0 1-2.4-2.4L15 7"/></svg></button>
+      <input type="text" placeholder="Ask Farmaan anything&hellip;">
+      <button type="submit" class="ask__send" aria-label="Send"><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+    </form>
+  </main>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>
